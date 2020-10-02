@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+#box {
+    border: solid 2px;
+    border-color: #73c673;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+    box-sizing: border-box;
+
+}
+
+#contant {
+    height: 20px;
+    color: #73c673;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 17px;
+    width: 100%;
+}
+
+#txt {
+    background-color: rgba(234, 234, 234, 0.56);
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 5px;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 2px 5px;
+}
+
+#expands {
+    background-image: url("icons/expand_icon-icons.com_63379.png");
+    background-size: cover;
+    width: 11px;
+    height: 11px;
+    margin-right: 5px;
+    box-sizing: border-box;
+
+}
+
+#btn {
+    text-transform: uppercase;
+    border: none;
+    height: 17px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+#text {
+    width: 100%;
+    background-color: rgba(234, 234, 234, 0.56);
+    box-sizing: border-box;
+    height: 30vh;
+    border: none;
+    display: flex;
+    align-content: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#submit {
+    color: white;
+    background-color: #73c673;
+    width: 100%;
+    text-transform: uppercase;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.what {
+    font-style: oblique;
+}
+
+
